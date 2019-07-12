@@ -48,6 +48,6 @@ on_success:
                   Write-Host ('Skipping publish: {0} is already published' -f $env:APPVEYOR_REPO_TAG_NAME) -ForegroundColor Green
               }
           } else {
-              throw 'Tag does not match build version' -ForegroundColor Yellow
+              throw 'Tag does not match build version'
           }
       }
