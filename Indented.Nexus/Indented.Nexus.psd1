@@ -11,7 +11,7 @@
     # RootModule = ''
 
     # Version number of this module.
-    ModuleVersion = '1.3.2'
+    ModuleVersion = '1.3.3'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Core', 'Desktop')
@@ -32,7 +32,7 @@
     Description = 'Nexus OSS management'
 
     # Minimum version of the Windows PowerShell engine required by this module
-    # PowerShellVersion = ''
+    PowerShellVersion = '5.1'
 
     # Name of the Windows PowerShell host required by this module
     # PowerShellHostName = ''
